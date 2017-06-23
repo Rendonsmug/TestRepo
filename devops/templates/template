@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Resources:
-  SG1prod:
+  SG1prod1:
     Properties:
       GroupDescription: Wallet Customer Access - PreProd
       SecurityGroupIngress:
