@@ -4,6 +4,6 @@ Resources:
     Properties:
       GroupDescription: Wallet Customer Access - PreProd
       SecurityGroupIngress:
-      - {CidrIp: 1.1.1.1/32, FromPort: '443', IpProtocol: tcp, ToPort: '443'}
+      - {CidrIp: 1.1.1.2/32, FromPort: '443', IpProtocol: tcp, ToPort: '443'}
       VpcId: vpc-72533f1b
     Type: AWS::EC2::SecurityGroup
